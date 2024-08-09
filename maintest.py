@@ -5,7 +5,6 @@ from crewai import Crew, Process, Agent, Task
 # from task_definition import new_task
 # import openai
 os.environ['OPENAI_MODEL_NAME'] = 'gpt-4'
-
 info_agent = Agent(
     role="Information Agent",   
     goal="Give compelling information about a certain topic",
