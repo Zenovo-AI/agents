@@ -1,5 +1,5 @@
 from crewai import Task
-from agent_definition import new_agent
+from agents import new_agent
 
 new_task = Task(
     description=(
