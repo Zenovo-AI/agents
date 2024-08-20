@@ -1,0 +1,21 @@
+# tasks.yaml
+idea_generation_task:
+  description: >
+    Brainstorm and generate at least three creative product ideas that could have a significant impact on the market.
+  expected_output: >
+    A list of three innovative product ideas with a brief description of each, highlighting their potential impact and feasibility.
+  agent: innovator
+
+technical_development_task:
+  description: >
+    Develop detailed technical specifications for the most promising product idea and create a basic prototype.
+  expected_output: >
+    A document with technical specifications and a functioning prototype (if applicable).
+  agent: engineer
+
+market_analysis_task:
+  description: >
+    Analyze the market demand for the selected product idea and provide a report on its potential success, including target demographics and potential challenges.
+  expected_output: >
+    A market analysis report that includes target audience, potential demand, competitors, and potential challenges.
+  agent: market_analyst
